@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotititos de Laurita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/album.css">
+</head>
+<body>
+    <header>
+        <h1>Fotitos de Laurita</h1>
+        <p>TQM Laurita</p>
+    </header>
+<!-- reemplaza la ruta "/albumimg/ejemplo.jpg" por tu ruta a la foto que quieres que se muestre -->
+    <div class="gallery">
+        <div class="photo" onclick="openModal(0)">
+            <img src="/albumimg/lau1.jpg" alt="Momentos especiales">
+            <p class="photo-caption">Hermosa</p>
+        </div>
+        <div class="photo" onclick="openModal(1)">
+            <img src="/albumimg/lau5.jpg" alt="Más recuerdos">
+            <p class="photo-caption">Preciosa</p>
+        </div>
+        <div class="photo" onclick="openModal(2)">
+            <img src="/albumimg/lau3.jpg" alt="Más momentos">
+            <p class="photo-caption">Linda</p>
+        </div>
+        <div class="photo" onclick="openModal(3)">
+            <img src="/albumimg/lau9.jpg" alt="Más momentos">
+            <p class="photo-caption">Lau pequeña</p>
+        </div>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-container">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage" />
+            <video class="modal-content" id="modalVideo" controls></video>
+            <div class="caption" id="modalCaption"></div>
+        </div>
+        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+    <!-- Ajusta la descripcion segun tus prefencias -->
+    <footer>
+        <p>Con cariño, Carlos</p>
+    </footer>
+    <script src="/js/album.js"></script>
+</body>
+</html>
