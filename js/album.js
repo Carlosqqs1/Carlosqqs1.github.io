@@ -1,31 +1,25 @@
-/* actualiza con la ruta a tus imagenes, si las pones en la carpeta albumimg ira de esta manera
-{ src: '/albumimg/nombredetufo.jpg', type: 'image', caption: 'descripcion' 
-reemplaza "nombredetufo" por el nombre que tenes en la carpeta "albumimg"
-reemplaza "descripcion" por la descripcion o el mensaje que quieras que se muestre en la foto
-*/
 const mediaSets = [
 
     [
-        { src: '/albumimg/lau1.jpg', type: 'image', caption: 'q linda' },
-        { src: '/albumimg/lau2.jpg', type: 'image', caption: 'playita, hermosa' },
-        { src: '/albumimg/lau3.jpg', type: 'image', caption: 'no me invitas a playa Laurita?😢' }
+        { src: '/albumimg/carol1.jpg', type: 'image', caption: 'q linda' },
+        { src: '/albumimg/carol2.jpg', type: 'image', caption: 'hermosaaa, me encta' },
+        { src: '/albumimg/carol3.jpg', type: 'image', caption: 'q linda mi mujer😢' }
     ],
     [
-        { src: '/albumimg/lau4.jpg', type: 'image', caption: 'pero q hermosa' },
-        { src: '/albumimg/lau5.jpg', type: 'image', caption: 'ya dije q eras linda no?' },
-        { src: '/albumimg/lau6.jpg', type: 'image', caption: 'q niña hermosa' }
+        { src: '/albumimg/carol4.jpg', type: 'image', caption: 'pero q hermosa' },
+        { src: '/albumimg/carol5.jpg', type: 'image', caption: 'ya dije q eras linda no?' },
+        { src: '/albumimg/carol6.jpg', type: 'image', caption: 'q niña hermosa,q culote por cierto' }
     ],
     [
-        { src: '/albumimg/lau7.jpg', type: 'image', caption: 'ya dije q hermosa?' },
-        { src: '/albumimg/lau8.jpg', type: 'image', caption: 'tqm' },
-        { src: '/albumimg/videoimg/videolau.mp4', type: 'video', caption: 'muak' }, 
-        { src: '/albumimg/videoimg/videolau.mp4', type: 'video', caption: 'preciosa' }
+        { src: '/albumimg/carol7.jpg', type: 'image', caption: 'me fascinas miamor bella ' },
+        { src: '/albumimg/carol8.jpg', type: 'image', caption: 'te amo demasido miamor' },
+        { src: '/albumimg/videoimg/videocarol.mp4', type: 'video', caption: 'muak' }, 
     ],
     [
-        { src: '/albumimg/lau9.jpg', type: 'image', caption: 'gafitas AJAJJ' },
-        { src: '/albumimg/lau10.jpg', type: 'image', caption: 'q le partan la torta' },
-        { src: '/albumimg/lau11.jpg', type: 'image', caption: 'abejita chikita' },
-        { src: 'https://cdn.discordapp.com/attachments/1265134207592829062/1285316144084946995/emoji.png?ex=66e9d370&is=66e881f0&hm=682f37da77ecc02afdd3b6033a12b6375b8dfe150c6f8d66f267505e0d7ebc5f&', type: 'image', caption: 'perdon si t molesta q te haga esto, nda vi en tt algo y quise hacerlo y no tenia a nadie mas, espero no te incomes<3. Tampoco quiero que pienses que es con mala intencion o algo. Lindo dia o noche, no se cuando te lo mande.' } 
+        { src: '/albumimg/carol9.jpg', type: 'image', caption: 'm gustas mucho miamor bella' },
+        { src: '/albumimg/carol10.jpg', type: 'image', caption: 'me debes muchos besitos no crees?' },
+        { src: '/albumimg/carol11.jpg', type: 'image', caption: 'te amo demasiadoooooooooooooo' },
+        { src: '/albumimg/carol12.jpg', type: 'image', caption: 'Feliz cumpleaños miamor, espero la pases genial, perdon por no consentirete tanto o algo asi, te has vuelto muy consetida, pero lo siento, te deseo un felliz cumpleaños y un hermos dia. Recuerda que te amo demasiado, lindo dia te desea tu novio<3' } 
     ]
 ];
 
